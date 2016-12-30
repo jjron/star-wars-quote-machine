@@ -1,0 +1,65 @@
+body {
+  margin-top: 40px;
+  margin-right: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Lora', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 0 0 2px black;
+}
+
+#quoteBox {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #000;
+}
+
+#phrase, #phraseAuthor {
+  text-shadow: 0 0 2px #808080, 0 0 1px #000;
+  font-family: 'Lora', sans-serif;
+}
+
+#twitter {
+  background-color: white;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -40px;
+}
+
+#twitter:hover {
+  opacity: 0.7;
+}
+
+#getQuote {
+  color: white;
+  text-shadow: 0 0 2px black;
+  margin-top: 30px;
+  margin-right: -40px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+#getQuote:hover {
+  opacity: 0.7;
+}
+
+.copyright, .copyright a {
+  color: black;
+  padding-top: 10px;
+  font-size: 15px;
+  text-shadow: 0 0 2px black;
+}
+
+#disclaimer {
+  font-size: 0.75em;
+}
